@@ -10,6 +10,7 @@ import javax.persistence.*;
 @Entity
 public class Material {
 
+    @Getter @Setter
     private @Id @GeneratedValue Long id;
 
     @NonNull @Getter @Setter
